@@ -1,0 +1,59 @@
+* {
+    font-family: px sans nouveaux;
+}
+
+body {
+    background-color: #008080;
+}
+
+footer {
+    background-color: #c3c3c3;
+    position: fixed;
+    height: 5%;
+    bottom: 0;
+    width: 100%;
+    left: 0px;
+    right: 0px;
+}
+
+#bio {
+    content: url(images/computer_explorer.png);
+}
+
+#resume {
+    content: url(images/notepad_file.png);
+}
+
+#pic {
+    content: url(images/pic_file.png);
+}
+
+#research-group {
+    content: url(images/internet_explorer.png);
+}
+
+#start {
+    content: url(images/windows_start.png);
+}
+
+.image-text {
+    color: white;
+}
+
+#sar-pic {
+    width: 50%;
+    border: 20px solid white;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+ }
+
+ .bold {
+    font-weight: bold;
+ }
+
+ #resume-content {
+    background-color: white;
+ }
+

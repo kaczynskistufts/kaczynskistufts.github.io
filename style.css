@@ -1,6 +1,6 @@
 * {
     font-family: px sans nouveaux;
-    overflow: hidden;
+    /**overflow: hidden;**/
 }
 
 body {
@@ -37,21 +37,13 @@ footer {
     color: white;
 }
 
-#pic-container {
+.container {
     background-color: #c3c3c3;
     border-style: solid;
     border-color: white black black white;
     border-width: 2px;
     margin-left: 30%;
     width: 60%;
-}
-
-#pic-view {
-    background-color: white;
-    border-style: solid;
-    border-color: black white white black;
-    border-width: 2px;
-    width: 80%;
 }
 
 #sar-pic {
@@ -63,11 +55,27 @@ footer {
     width: 50%;
  }
 
+ .content {
+    background-color: white;
+    border-style: solid;
+    border-color: black white white black;
+    border-width: 2px;
+    width: 95%;
+    margin-left: 2%;
+    margin-right: 2%;
+    margin-top: 2%;
+    margin-bottom: 2%;
+ }
+
  .bold {
     font-weight: bold;
  }
 
  #resume-content {
+    background-color: white;
+ }
+
+ #bio-content {
     background-color: white;
  }
 

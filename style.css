@@ -1,5 +1,6 @@
 * {
     font-family: px sans nouveaux;
+    overflow: hidden;
 }
 
 body {
@@ -17,7 +18,7 @@ footer {
 }
 
 #bio {
-    content: url(images/computer_explorer.png);
+    content: url(images/cd-file.png);
 }
 
 #resume {
@@ -32,12 +33,25 @@ footer {
     content: url(images/internet_explorer.png);
 }
 
-#start {
-    content: url(images/windows_start.png);
-}
-
 .image-text {
     color: white;
+}
+
+#pic-container {
+    background-color: #c3c3c3;
+    border-style: solid;
+    border-color: white black black white;
+    border-width: 2px;
+    margin-left: 30%;
+    width: 60%;
+}
+
+#pic-view {
+    background-color: white;
+    border-style: solid;
+    border-color: black white white black;
+    border-width: 2px;
+    width: 80%;
 }
 
 #sar-pic {
@@ -56,4 +70,36 @@ footer {
  #resume-content {
     background-color: white;
  }
+
+ #start-menu {
+    margin-top: 5px;
+    margin-bottom: 5px;
+    margin-left: 5px;
+    border-style: solid;
+    border-color: white black black white;
+    border-width: 2px;
+    width: 5%;
+    height: 75%;
+ }
+
+ #start {
+    content: url(images/windows_start.png);
+    position: absolute;
+    top: 50%;
+    bottom: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    margin-left: 15px;
+}
+
+ #start-text {
+    color: black;
+    font-weight: bold;
+    margin-left: 47px;
+    position: absolute;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+ }
+
+
 

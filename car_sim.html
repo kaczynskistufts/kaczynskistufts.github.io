@@ -3,7 +3,8 @@
     <head>
         <meta charset="UTF-8">
         <link rel="stylesheet" href="style.css">
-        <title>sarah.jpg</title>
+        <script src="sim.js" defer></script>
+        <title>Home</title>
     </head>
     <body>
         <!-- navigation side bar with "apps" as buttons -->
@@ -21,8 +22,26 @@
         </div>
         <div class="container">
             <div class="content">
-                <img id="sar-pic" src="images/bio_photo.jpg" alt="Sarah is sitting on her parents' log cabin porch railing, wearing a brown 
-                Tuft's t-shirt and a grey and green skirt with computer and math symbols on it.">
+                <h1>Car Friction Simulator</h1>
+                <p>
+                    <label for="mode">Select a mode:</label>
+                    <select name="mode" id="mode">
+                        <option value="pushed">Pushed</option>
+                        <option value="driven">Driven</option>
+                    </select>
+                </p>
+                <p>
+                    <label for="init-vel">Initial Velocity: </label>
+                    <input name="init-vel" id="v0" type="text">
+                    <label for="acceleration">Acceleration: </label>
+                    <input name="acceleration" id="a" type="text">
+                    <label for="f-coef">Friction Coefficient: </label>
+                    <input name="f-coef" id="fc" type="text">
+                    <button id="play-btn">Play</button>
+                </p>
+                <div id ="myContainer">
+                    <div id ="myAnimation"></div>
+                </div>
             </div>
         </div>
         <footer>
